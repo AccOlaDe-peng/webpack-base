@@ -1,0 +1,19 @@
+@font-face{
+    font-family: 'busong';
+    src:url('./本墨钧宋.ttf');
+}
+.home{
+    height:80vh;
+    transform: rotate(3deg);
+    background: url('./timg.jpg') no-repeat;
+    .h-txt{
+        margin-top: 100px;
+        font-family: 'busong';
+        color: red;
+    }
+}
+
+// 下边这个会被CSS tree shaking 过滤掉哦，是不是很神奇
+.mm{
+    background: red;
+}
